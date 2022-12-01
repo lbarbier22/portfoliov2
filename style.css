@@ -1,0 +1,460 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #1c1c1c;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #363636;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocHorizontal {
+    display: flex;
+    flex-direction: row;
+    width: 800vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.container {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-x: hidden;
+    /* Pour IE et Firefox */
+    -ms-overlow-style: none;
+    scrollbar-width: none;
+}
+
+.one {
+    background: #1c1c1c;
+}
+
+.CMOI {
+    width: 2.5%;
+    height: 60%;
+    position: fixed;
+    left: 0.7%;
+    top: 20.6%;
+    border: #363636 2px solid;
+    transition: 1s;
+}
+
+.CMOI:hover {
+    width: 2.6%;
+    height: 62%;
+    position: fixed;
+    top: 19.6%;
+    left: 0.65%;
+    border: #ffffff 2px solid;
+}
+
+.Stageone {
+    width: 2.7%;
+    top: 22%;
+    margin-left: 2%;
+    position: fixed;
+    border: #363636 2px solid;
+    transition: 1s;
+}
+
+.Stageone:hover {
+    width: 2.8%;
+    position: fixed;
+    border: #ffffff 2px solid;
+}
+
+.Stagetwo {
+    width: 2.7%;
+    bottom: 20.7%;
+    margin-left: 2%;
+    position: fixed;
+    border: #363636 2px solid;
+    transition: 1s;
+}
+
+.Stagetwo:hover {
+    width: 2.8%;
+    position: fixed;
+    border: #ffffff 2px solid;
+}
+
+.two {
+    background: #141313;
+}
+
+.three {
+    background: #1c1c1c;
+}
+
+.four {
+    background: #141313;
+}
+
+.five {
+    background: #1c1c1c;
+}
+
+.six {
+    background: #141313;
+}
+
+.seven {
+    background: #1c1c1c;
+}
+
+.parone {
+    font-size: 170%;
+    color: #ffffff;
+    position: fixed;
+    left: 4%;
+    top: 25%;
+}
+
+
+/*Second paragraphe*/
+
+.partwo {
+    font-size: 150%;
+    color: #ffffff;
+    position: fixed;
+    top: 22%;
+    margin-right: 6.5%;
+}
+
+
+/*Formulaire Artiste Fav*/
+
+form {
+    padding-left: 5%;
+    padding-right: 17.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: #363636 solid 2px;
+    transition: 0.5s;
+    position: relative;
+    bottom: 13%;
+    left: 44.7%;
+}
+
+form:hover {
+    border: #ffffff solid 2px;
+}
+
+input {
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #363636;
+}
+
+input:focus {
+    border: none;
+    background: none;
+    border-bottom: 2px solid #ffffff;
+}
+
+input[type=text] {
+    width: 75%;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+input[type=email] {
+    width: 75%;
+}
+
+input[type=email]:focus {
+    width: 100%;
+}
+
+input[id=artiste] {
+    width: 50%;
+}
+
+input[type=artiste]:focus {
+    width: 100%;
+}
+
+input[type=submit] {
+    border: none;
+    background: #363636;
+    padding: 4%;
+    transition: 0.5s;
+}
+
+input[type=submit]:hover {
+    border: none;
+    background: #ffffff;
+    color: #363636;
+    padding: 4%;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-size: 110%;
+}
+
+
+/*iframe Spotify*/
+
+.spotify {
+    width: 37%;
+    height: 26%;
+    position: relative;
+    top: 21%;
+    left: 7.8%;
+    border: #363636 solid 2px;
+    transition: 0.5s;
+}
+
+.spotify:hover {
+    border: #ffffff solid 2px;
+}
+
+.parsix {
+    font-size: 160%;
+    color: #ffffff;
+    position: fixed;
+    top: 25%;
+    margin-right: 6.5%;
+}
+
+.navbar {
+    width: 80%;
+    position: fixed;
+    top: 3.3%;
+}
+
+.barrevmenu {
+    border-left: 2px solid #363636;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    font-size: 90%;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.sous {
+    display: inline;
+    position: fixed;
+    width: 80%;
+    z-index: 1000;
+    transition: 0.5s;
+}
+
+.sous li {
+    padding-left: 2%;
+}
+
+.sous li a {
+    transition: 0.5s;
+}
+
+.sous li a:hover {
+    font-size: 110%;
+    color: #363636;
+}
+
+.lien {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.lien:hover {
+    color: #363636;
+}
+
+.fa {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+    transition: top 1s, rotate 1s, font-size 1s;
+    position: fixed;
+}
+
+.fa-linkedin {
+    top: 90%;
+    color: #ffffff;
+    left: 91%;
+}
+
+.fa-linkedin:hover {
+    transition: all 0.5s;
+    background: #363636;
+    top: 89%;
+    rotate: 720deg;
+}
+
+.fa-instagram {
+    color: white;
+    top: 90%;
+    left: 95%;
+}
+
+.fa-instagram:hover {
+    transition: all 0.5s;
+    background: #363636;
+    top: 89%;
+    rotate: 720deg;
+}
+
+.fa-github {
+    color: white;
+    top: 90%;
+    left: 87%;
+}
+
+.fa-github:hover {
+    transition: all 0.5s;
+    background: #363636;
+    top: 89%;
+    rotate: 720deg;
+}
+
+.fa-chevron-right {
+    color: white;
+    rotate: 90deg;
+    top: 70%;
+}
+
+.fa-chevron-right:hover {
+    transition: all 0.5s;
+    font-size: 500%;
+    rotate: 0deg;
+}
+
+.fa-chevron-left {
+    color: white;
+    rotate: -90deg;
+    top: 70%;
+}
+
+.fa-chevron-left:hover {
+    transition: all 0.5s;
+    font-size: 500%;
+    rotate: 0deg;
+}
+
+#lienchev {
+    width: 10%;
+    transition: 0.5s;
+}
+
+#lienchev:hover {
+    color: #363636;
+}
+
+#chevexemple {
+    left: 5.8%;
+}
+
+#chevexemple:hover {
+    left: 5.8%;
+    font-size: 250%;
+}
+
+#lienchev:hover~#chevexemple {
+    transition: all 0.5s;
+    font-size: 250%;
+    rotate: 0deg;
+}
+
+.footer {
+    color: #ffffff;
+    font-size: 100%;
+    position: fixed;
+    left: 2%;
+    top: 87.5%;
+    padding-top: 31px;
+    padding-right: 96%;
+    border-top: solid 2px #363636;
+    transition: border-top 0.5s;
+}
+
+.footer:hover {
+    border-top: 2px solid white;
+    padding-top: 31px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.droits {
+    display: block;
+    position: fixed;
+    left: 80px;
+    width: 100%;
+}
+
+.header {
+    color: #ffffff;
+    transition: 0.5s;
+    font-size: 150%;
+    position: fixed;
+    left: 2%;
+    bottom: 85.5%;
+    padding-bottom: 2%;
+    padding-right: 96%;
+    border-bottom: solid 2px #363636;
+}
+
+.header:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 31px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

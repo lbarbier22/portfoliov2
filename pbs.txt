@@ -1,0 +1,18 @@
+1/ Quand je clique sur un lien, 
+la page descend et fait qu'on ne voit plus la barre.
+
+2/ Je veux le smooth scroll ce serait top tier,
+mais il faudrait que je le fasse en JS.
+
+3/regarder commment gérer les cookies.
+
+4/ Passer ma page en php. et faire des formulaires fonctionnelles,
+recevoir et traiter les infos
+
+5/ Faire en sorte qu'elle soit réactive et aille sur mobile et
+navigateur web.
+
+6/ Faire que dans la 2ème slide, quand on hover oeil et ici il anime les borders
+des des réseaux et du formulaire.
+
+Courage Lucas :))))

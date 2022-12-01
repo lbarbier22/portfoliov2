@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Barbier Lucas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/97456abeb1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="blocHorizontal">
+            <div class="slide one" id="slide one">
+                <a href="https://www.instagram.com/lucas0barbier/" target="_blank"><img class="CMOI" src="img/CMOI.jpg" alt="Une photo de moi"></a>
+                <div class="parone">
+                    Bienvenue sur mon portfolio,<br> <br> Je m'appelle Lucas BARBIER, j'ai 20 ans et j'étudie actuellement <br>au <a class="lien" href="https://www.gastonberger.fr/" target="_blank">Lycée Gaston Berger</a> en
+                    <a class="lien" href="https://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" target="_blank">BTS SIO SLAM</a>.<br><br>                    Vous pouvez naviguer au travers de mon site grâce aux
+                    <div id="lienchev">chevrons</div>
+                    ou alors vous pouvez aussi utiliser le menu en haut en glissant <br>votre souris en haut de la page.
+                    <a href="#slide two" id="chevexemple" class="fa fa-chevron-right fa-2x" target="_self"></a>
+                </div>
+            </div>
+            <div class="slide two" id="slide two">
+                <div class="partwo">
+                    J'aime énormément la musique, la mode et <br>évidemment le développement informatique. <br><br> Discuter de goûts musicaux avec les autres <br>est quelque chose que j'apprécie aussi beaucoup,<br>donc je vous propose de me dire quel
+                    est votre <br>artiste préféré juste <a class="lien">ici</a> !<br><br><br> Moi je vous redirige vers ma playlist Spotify que <br>j'alimente régulièrement en m'étant basé sur mes <br>de 10 sons favoris de mes 22 artistes préférés :
+                    <a
+                        class="lien" href="https://open.spotify.com/playlist/5LkaAcUuofVIZHNZYCNQF9?si=73c113b4fa9940bf" target="_blank">222</a>. <br><br> Je partage tout ce que je fais sur les réseaux <br>sociaux donc n'hésitez à aller jeter un <a class="lien">oeil</a> :).
+                </div>
+
+                <!--Formulaire Artiste fav-->
+                <form action="" method="get" class="form">
+                    <div class="form-nom">
+                        <label for="nom">Nom / Pseudo : </label><br>
+                        <input type="text" name="nom" id="nom" required>
+                    </div>
+                    <br>
+                    <div class="form-email">
+                        <label for="email">Adresse E-Mail : </label><br>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <br>
+                    <div class="form-artiste">
+                        <label for="artiste">Artiste(s) préféré(s) : </label><br>
+                        <input type="text" name="artiste" id="artiste" required>
+                    </div>
+                    <br>
+                    <div class="form-submit">
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </form>
+                <!--Fin Formulaire Artiste fav-->
+                <iframe class="spotify" src="https://open.spotify.com/embed/playlist/5LkaAcUuofVIZHNZYCNQF9?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+                <a href="#slide three" class="fa fa-chevron-right fa-4x" target="_self"></a>
+            </div>
+            <div class="slide three" id="slide three">
+                CV
+                <a href="#slide four" class="fa fa-chevron-right fa-4x" target="_self"></a>
+            </div>
+
+            <div class="slide four" id="slide four">
+                EPREUVE E4
+                <a href="#slide five" class="fa fa-chevron-right fa-4x" target="_self"></a>
+            </div>
+            <div class="slide five" id="slide five">
+                Veille Technologique
+                <a href="#slide six" class="fa fa-chevron-right fa-4x" target="_self"></a>
+            </div>
+            <div class="slide six" id="slide six">
+                <a href="dl/Rapport-de-stage-ovh-2021.docx" target="_blank"><img class="Stageone" src="img/ovhcloud.jpg" alt="rapport de stage 2021/2022"></a>
+                <a href="dl/Rapport-de-stage-ovh-2022.docx" target="_blank"><img class="Stagetwo" src="img/ovhcloud.jpg" alt="rapport de stage 2022/2023"></a>
+                <div class="parsix">
+                    <h3>Vous souhaitez en savoir plus <br>sur mes stages ?</h3> <br> Ici vous pouvez directement télécharger <br>mes rapports de stage réalisés lors de <br>mes deux années de BTS.
+                </div>
+                <a href="#slide seven" class="fa fa-chevron-right fa-4x" target="_self"></a>
+            </div>
+            <div class="slide seven" id="slide seven">
+                Contact
+                <a href="#slide one" class="fa fa-chevron-left fa-4x" target="_self"></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="header">
+
+
+
+        <div class="navbar">
+
+            <ul>
+                <li><a style="text-decoration:none; color : white" class="index" href="#slide one" target="_self">Lucas <b>BARBIER</b></a>
+                    <ul class="sous">
+                        <li><a class="barrevmenu" href="#slide two">PROFIL</a></li>
+                        <li><a href="#slide three">CV</a></li>
+                        <li><a href="#slide four">E4</a></li>
+                        <li><a href="#slide five">VEILLE</a></li>
+                        <li><a href="#slide six" target="_self">EXPERIENCES</a></li>
+                        <li><a href="#slide seven">CONTACT</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="droits"> K44RMA © All rights not reserved | Inspiré de cette <a class="lien" href="https://neil-template.webflow.io/" target="_blank">template</a>. </div>
+        <a href="https://www.linkedin.com/in/lucas-barbier/" class="fa fa-linkedin" target="_blank"></a>
+        <a href="https://www.instagram.com/lucas0barbier/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://github.com/lbarbier22" class="fa fa-github" target="_blank"></a>
+    </div>
+
+</body>
+
+</html>
